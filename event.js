@@ -6,7 +6,7 @@ function success(pos) {//get 'Position' object as an input
     console.log('Congratulations, you get the heading and speed');
     document.getElementById('speedRep').innerHTML=crd.speed;
     document.getElementsByTagName('img')[0].style.transform="rotate("+crd.heading+"deg)";
-    //navigator.geolocation.clearWatch(id);
+    navigator.geolocation.clearWatch(id);
   }
 }
 
@@ -16,7 +16,7 @@ function error(err) {
 
 options = {
   enableHighAccuracy: false,
-  timeout: 5000,
+  timeout: Infinity,
   maximumAge: 0
 };
 
