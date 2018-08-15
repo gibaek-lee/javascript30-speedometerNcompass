@@ -1,0 +1,16 @@
+html, body{ /*body fills the screen*/
+  height:100%;
+  margin:0;
+}
+body, #container, #compassBox, #speedometerBox{ /*all items are centered*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container{
+  flex-direction: column;
+}
+img{
+  width:256px;
+  height:256px;
+}
