@@ -6,5 +6,5 @@ click [here](https://ginnyang2.github.io/javascript30-speedometerNcompass/)
 Should run on safari Geolocation iOS simulator
 
 <p align="center">
-  <img width="100%" src="1.png">
+  <img width="30%" src="1.png">
 </p>
